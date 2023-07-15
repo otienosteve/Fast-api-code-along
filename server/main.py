@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from models import Student, session
+from .models import Student, session
 
 app =FastAPI()
 
@@ -12,10 +12,9 @@ def index():
 @app.get('/student')
 def get_all_students():
     # query for all students
-    session.query(Student).all()
-    print(add Student)
+    students = session.query(Student).all()
     #return the student data
-    return {'msg':'all students'}
+    return students
 
 @app.get('/student/1')
 def get_one_students():
