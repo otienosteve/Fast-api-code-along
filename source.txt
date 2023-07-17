@@ -1,0 +1,12 @@
+https://swagger.io/docs/specification/describing-parameters/#:~:text=0%3B%20csrftoken%3DBUSe35dohU3O1MZvDCU-,Path%20Parameters,denoted%20with%20curly%20braces%20%7B%20%7D%20.
+https://fastapi.tiangolo.com/tutorial/path-params/
+ 
+
+
+
+pydantic
+
+https://docs.pydantic.dev/latest/
+https://fastapi.tiangolo.com/tutorial/response-model/
+
+
